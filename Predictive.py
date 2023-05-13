@@ -9,7 +9,6 @@ import numpy as np
 import pickle
 import sklearn
 loaded_model = pickle.load((open('C:/Users/Sowndarya/PycharmProjects/Diabetes_Predictor/trained_model.sav','rb')))
-input_data = (10,115,0,0,0,35.5,0,134.8)
 input_data_as_numpy_array = np.asarray(input_data)
 
 #reshape the array  we predict for one instance
